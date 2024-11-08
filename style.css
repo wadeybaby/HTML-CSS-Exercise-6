@@ -1,0 +1,90 @@
+/* Layout and container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+/* Form styling */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #2196F3;
+    outline: none;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #1976D2;
+}
+
+/* Table styling */
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.schedule th, .schedule td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.schedule tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsive table design */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Padding adjustments on small screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

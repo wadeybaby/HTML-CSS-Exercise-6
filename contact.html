@@ -1,0 +1,97 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+<!-- Header section -->
+        <header>
+            <h1>Contact Us</h1>
+            <p>Please fill out the form below.</p>
+        </header>
+
+<!-- Contact form section -->
+        <section class="contact-form">
+        <h2>Get in touch</h2>
+
+        <form>
+        <!-- User inputs name -->
+            <label for="name&surname">Name:</label>
+            <input type="text" name="name&surname" required>
+
+<!-- User inputs email -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+<!-- User inputs phone number -->
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" required>
+
+<!-- Dropdown for selecting a subject -->
+            <label for="subject">Subject:</label>
+            <select name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+            </select>
+
+        <!-- Text area for a user message -->
+            <label for="message">Message</label>
+            <textarea name="message" rows="4" required></textarea>
+    
+        <!-- Submit button -->
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+    
+<!--Schedule  table sesction -->
+            <section class="schedule">
+                <h2>Available Apointment Times</h2>
+                <div class="table-ressponsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Time</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Monday, Nov 4</td>
+                                <td>10:00 AM</td>
+                                <td>Available</td>
+                            </tr>
+                            <tr>
+                                <td>Tuesday, Nov 5</td>
+                                <td>1:00 PM</td>
+                                <td>Available</td>
+                            </tr>
+                            <tr>
+                                <td>Wednesday, Nov 6</td>
+                                <td>2:00 PM</td>
+                                <td>Available</td>
+                            </tr>
+                            <tr>
+                                <td>Thurday, Nov 7</td>
+                                <td>11:00 AM</td>
+                                <td>Available</td>
+                            </tr>
+
+                            <tr>
+                                <td>Friday, Nov 8</td>
+                                <td>3:00 PM</td>
+                                <td>Available</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+    </div>       
+</body>
+</html>
